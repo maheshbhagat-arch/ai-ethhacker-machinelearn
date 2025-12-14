@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberLex | About</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="top-owner-bar">
+        <div class="container owner-name">
+            <i class="fa-solid fa-terminal"></i>
+            <span>SYSTEM ADMIN: E.H MAHESH CHANDER</span>
+            <i class="fa-solid fa-terminal"></i>
+        </div>
+    </div>
+
+    <canvas id="bgCanvas"></canvas>
+    <div class="overlay"></div>
+
+    <header class="glass-header">
+        <div class="container nav-container">
+            <div class="logo">
+                <i class="fa-solid fa-scale-balanced neon-icon"></i>
+                <span class="glitch" data-text="CYBERLEX">CYBERLEX</span>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html" class="active">About</a></li>
+                    <li><a href="domains.html">Domains</a></li>
+                    <li><a href="roadmap.html">Roadmap</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="section about-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">About Cyber Law</h2>
+                    <div class="line"></div>
+                </div>
+                <div class="about-grid">
+                    <div class="about-card glass-card">
+                        <i class="fa-solid fa-shield-halved"></i>
+                        <h3>Protection</h3>
+                        <p>Safeguarding individuals and organizations from unauthorized access and data breaches.</p>
+                    </div>
+                    <div class="about-card glass-card">
+                        <i class="fa-solid fa-gavel"></i>
+                        <h3>Regulation</h3>
+                        <p>Establishing legal frameworks for e-commerce, digital contracts, and electronic signatures.
+                        </p>
+                    </div>
+                    <div class="about-card glass-card">
+                        <i class="fa-solid fa-fingerprint"></i>
+                        <h3>Privacy</h3>
+                        <p>Ensuring the right to privacy and control over personal data in a hyper-connected world.</p>
+                    </div>
+                </div>
+
+                <div style="margin-top: 60px;">
+                    <div class="section-header">
+                        <h2 class="section-title">Meet The Expert</h2>
+                        <div class="line"></div>
+                    </div>
+                    <div class="glass-card" style="display:flex; gap: 30px; align-items:center;">
+                        <div style="flex:1;">
+                            <!-- Placeholder for user image if they have one, using icon for now -->
+                            <i class="fa-solid fa-user-secret"
+                                style="font-size: 100px; color: var(--primary-cyan);"></i>
+                        </div>
+                        <div style="flex:3;">
+                            <h3 style="color: var(--primary-cyan); margin-bottom: 10px;">E.H Mahesh Chander</h3>
+                            <p>Mahesh Chander is a distinguished Ethical Hacker and Cyber Law Expert dedicated to
+                                securing the digital landscape. With deep expertise in vulnerability assessment,
+                                penetration testing, and digital forensics, he bridges the gap between technology and
+                                law.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Rating Section -->
+        <div class="rating-section">
+            <h3 class="rating-title">Rate This Page</h3>
+            <div class="stars" data-rating="0">
+                <i class="fa-regular fa-star" data-value="1"></i>
+                <i class="fa-regular fa-star" data-value="2"></i>
+                <i class="fa-regular fa-star" data-value="3"></i>
+                <i class="fa-regular fa-star" data-value="4"></i>
+                <i class="fa-regular fa-star" data-value="5"></i>
+            </div>
+            <p class="rating-text">Click to rate</p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2025 CyberLex. All Rights Reseverd. System Status: <span class="status-ok">ONLINE</span></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

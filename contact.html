@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberLex | Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="top-owner-bar">
+        <div class="container owner-name">
+            <i class="fa-solid fa-terminal"></i>
+            <span>SYSTEM ADMIN: E.H MAHESH CHANDER</span>
+            <i class="fa-solid fa-terminal"></i>
+        </div>
+    </div>
+
+    <canvas id="bgCanvas"></canvas>
+    <div class="overlay"></div>
+
+    <header class="glass-header">
+        <div class="container nav-container">
+            <div class="logo">
+                <i class="fa-solid fa-scale-balanced neon-icon"></i>
+                <span class="glitch" data-text="CYBERLEX">CYBERLEX</span>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="domains.html">Domains</a></li>
+                    <li><a href="roadmap.html">Roadmap</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="section contact-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Initiate Contact</h2>
+                    <div class="line"></div>
+                </div>
+                <div class="contact-wrapper glass-card">
+                    <div class="contact-info">
+                        <h3>Connect With Us</h3>
+                        <p>Our team of digital legal experts is ready to assist you.</p>
+                        <ul class="info-list">
+
+                            <li><i class="fa-solid fa-envelope"></i> ethicalhackermahesh@io.in</li>
+                            <li><i class="fa-solid fa-phone"></i> +91 1914001340</li>
+                        </ul>
+                        <div class="social-icons">
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Inquiry</label>
+                            <textarea id="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Send Transmission</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Rating Section -->
+        <div class="rating-section">
+            <h3 class="rating-title">Rate This Page</h3>
+            <div class="stars" data-rating="0">
+                <i class="fa-regular fa-star" data-value="1"></i>
+                <i class="fa-regular fa-star" data-value="2"></i>
+                <i class="fa-regular fa-star" data-value="3"></i>
+                <i class="fa-regular fa-star" data-value="4"></i>
+                <i class="fa-regular fa-star" data-value="5"></i>
+            </div>
+            <p class="rating-text">Click to rate</p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2025 CyberLex. All Rights Reseverd. System Status: <span class="status-ok">ONLINE</span></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
